@@ -2,8 +2,8 @@
 num_1 = input("Enter numbers separated with spaces:\n")
 num_2 = input("Enter numberss separated with spaces:\n")
 
-lst_1 = list(map(int, num_1.split()))
-lst_2 = list(map(int, num_2.split()))
+lst_1 = list(map(float, num_1.split()))
+lst_2 = list(map(float, num_2.split()))
 
 lst = []
 
