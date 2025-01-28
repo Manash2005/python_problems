@@ -8,6 +8,6 @@ integer = int(input("Enter your numbr you want to find: "))
 i = 0
 for num in lst:
     if num == integer:
-        print(i)
+        print(f"{integer} appears in {i}")
     i += 1
-    
+
