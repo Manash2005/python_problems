@@ -2,6 +2,7 @@
 
 num = input("Enter your number separated with spaces: ")
 lst = list(map(int, num.split()))
+lst_copy = list(map(int, num.split()))
 print(lst)
 for x in lst:
-    i =  
+    
