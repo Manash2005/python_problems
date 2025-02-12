@@ -9,7 +9,7 @@ for i in lst:
     if i > greatest_number:
         second_greatest_number = greatest_number
         greatest_number = i
-    elif i < second_greatest_number and i != greatest_number:
+    elif i > second_greatest_number and i != greatest_number:
         second_greatest_number = i
 if second_greatest_number == -float('inf'):
     print("There is no second largest number.")
