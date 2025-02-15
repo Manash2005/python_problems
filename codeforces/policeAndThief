@@ -1,0 +1,5 @@
+import math
+T = int(input())
+for x in range(T):
+    X,Y = map(int,input().split())
+    print(abs(X-Y))
